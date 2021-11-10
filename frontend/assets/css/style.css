@@ -1,0 +1,46 @@
+/*nav*/
+
+/*--- home ---*/
+table {
+  min-width: 690px;
+  height: auto;
+}
+
+/*--- login ---*/
+
+.row-pg {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  max-width: 6.25rem;
+}
+
+/*--- contact ---*/
+.error-msg {
+  color: #ff0000;
+}
+
+/*--- RESPONSIVE ---*/
+
+@media (max-width: 776px) {
+  /*home*/
+  .container {
+    max-width: none;
+  }
+
+  .table > :not(caption) > * > * {
+    padding: 0.6rem 0.3rem;
+  }
+
+  td a i.bi {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+}
